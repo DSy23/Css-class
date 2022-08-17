@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<head>
+	<title>CSS Box Model</title>
+	<style>
+	.main {
+		font-size: 36px;
+		font-weight: bold;
+		Text-align: center;
+	}
+	
+	.model {
+		margin-left: 60px;
+		border: 50px solid #004799;
+		width: 300px;
+		height: 200px;
+		text-align: center;
+		padding: 50px;
+    }
+
+	
+	.model1{
+		font-size: 42px;
+		font-weight: bold;
+		color: #993000;
+		margin-top: 60px;
+		background-color:antiquewhite
+	}
+	
+	.model2 {
+		font-size: 18px;
+		font-weight: bold;
+		background-color: #c5c5db;
+	}
+    .Content {
+        
+        
+		border: 10px solid #8f868f;
+		
+		height: 200px;
+		text-align: center;
+		padding: 10px;
+        
+
+
+    }
+	</style>
+</head>
+
+<body>
+	<div class="main">CSS Box-Model </div>
+	<div class="model">
+		<div class="model1">XYZ</div>
+		<div class="model2">
+		Web devlopment
+		</div>
+	</div>
+    <br>
+    <br>
+    
+    <div class = "Content">About the Web dvelopment, we are learning here in the class  </div>
+</body>
+</html>
